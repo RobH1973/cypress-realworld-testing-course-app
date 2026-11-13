@@ -133,7 +133,7 @@ context('Actions', () => {
     cy.get('.rightclick-action-input-hidden').should('be.visible')
   })
 
-  it('.check() - check a checkbox or radio element', () => {
+  it.only('.check() - check a checkbox or radio element', () => {
     // https://on.cypress.io/check
 
     // By default, .check() will check all
